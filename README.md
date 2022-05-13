@@ -45,7 +45,7 @@ Prob=list(); E=list(); xi=list()
 print("  X P(X=x) Obs.Fr  Ex.Fre   xi ")
 print("----------------------------------")
 for x in range(7):
-    Prob.append(math.exp(-mean)*mean*x/math.factorial(x))
+    Prob.append(math.exp(-mean)*mean**x/math.factorial(x))
     E.append(Prob[x]*N)
     xi.append((f[x]-E[x])**2/E[x])
     print("%2.2f %2.2f  %4.2f   %3.2f   %3.2f"%(x,Prob[x],f[x],E[x],xi[x]))
@@ -63,7 +63,7 @@ else:
 
 # OUTPUT: 
 
-![Screenshot (52)](https://user-images.githubusercontent.com/75234646/166290201-5894c01e-c449-4d59-a8cf-f0f72f697dd2.png)
+![Screenshot (68)](https://user-images.githubusercontent.com/75234646/168325663-62d19626-fe0f-4119-ac9f-b1028dd95110.png)
 
 
 # RESULTS : 
