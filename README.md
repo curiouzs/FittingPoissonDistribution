@@ -1,37 +1,28 @@
  # FITTING POISSON DISTRIBUTION
-
 # AIM : 
-
 To fit poisson distribution for the given frequencey distribution
-
  ![image](https://user-images.githubusercontent.com/104613195/166092068-a5bf057f-fe65-41b8-ba2f-310fc6b56078.png)
 
-
 # SOFTWARE REQUIRED :  
-
 Python
 
 # THEORY:
-
 The Poisson distribution is the discrete probability distribution of the number of events occurring in a given time period, given the average number of times the event occurs over that time period.
-
 ![image](https://user-images.githubusercontent.com/104613195/166248326-fd042076-8b0b-40c4-8b11-1d8e8fcb74db.png)
-
  Conditions for Poisson Distribution:
-
 1. An event can occur any number of times during a time period.
 2. Events occur independently. I
 3. The rate of occurrence is constant.
 4. The probability of an event occurring is proportional to the length of the time period. 
  
 # PROCEDURE :
-
 ![image](https://user-images.githubusercontent.com/104613195/166251988-d0c53205-6080-4f7b-ae4c-398178586637.png)
 
 # PROGRAM :
 
 ```python
-
+#Developed By: M.LOKESH KRISHNAA 
+#Register No: 212220230030
 
 import numpy as np
 import math
@@ -62,10 +53,7 @@ else:
 ````
 
 # OUTPUT: 
-
 ![Screenshot (68)](https://user-images.githubusercontent.com/75234646/168325663-62d19626-fe0f-4119-ac9f-b1028dd95110.png)
 
-
 # RESULTS : 
- 
  Thus, fitting poisson distribution for the given frequencey distribution is verified.
